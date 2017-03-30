@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name=".HostOrJoin"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,10 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HostOrJoin" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".QueuersListActivity" />
         <activity android:name=".HostInformationActivity" />
-        <activity android:name=".ManageLineActivity"></activity>
+        <activity android:name=".ManageLineActivity" />
     </application>
 
 </manifest>

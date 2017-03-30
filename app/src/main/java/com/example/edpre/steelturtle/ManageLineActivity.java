@@ -1,4 +1,4 @@
-package com.example.andriod.protosteelturtle;
+package com.example.edpre.steelturtle;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

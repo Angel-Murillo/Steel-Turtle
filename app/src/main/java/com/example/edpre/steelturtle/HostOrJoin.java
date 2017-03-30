@@ -1,7 +1,11 @@
 package com.example.edpre.steelturtle;
 
+
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+
 
 public class HostOrJoin extends AppCompatActivity {
 
@@ -10,4 +14,11 @@ public class HostOrJoin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_host_or_join);
     }
+
+    public void hostInformationPage(View view)
+    {
+        Intent i = new Intent(this,HostInformationActivity.class);
+        startActivity(i);
+    }
 }
+

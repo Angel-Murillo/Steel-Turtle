@@ -23,7 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HostOrJoin"></activity>
+        <activity android:name=".HostOrJoin" />
+        <activity android:name=".QueuersListActivity" />
+        <activity android:name=".HostInformationActivity" />
+        <activity android:name=".ManageLineActivity"></activity>
     </application>
 
 </manifest>
